@@ -1,0 +1,12 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <br>
+    <label>
+      用户名：
+      <input type="text" formControlName="firstName">
+    </label>
+    <label>
+      密码：
+      <input type="password" formControlName="lastName">
+    </label><br>
+    <button type="submit">登录</button>
+  </form>
